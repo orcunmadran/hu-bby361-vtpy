@@ -3,7 +3,7 @@ from tkinter import messagebox
 from tkinter import ttk
 import sqlite3
 
-baglanti = sqlite3.connect("katalog.sqlite3")
+baglanti = sqlite3.connect("eserveri.db")
 sorgu = baglanti.cursor()
 
 

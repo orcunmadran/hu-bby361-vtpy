@@ -2,7 +2,7 @@ from tkinter import *
 from  tkinter import ttk
 import sqlite3
 
-baglanti = sqlite3.connect("katalog.sqlite3")
+baglanti = sqlite3.connect("eserveri.db")
 sorgu = baglanti.cursor()
 sonuc = sorgu.execute("SELECT * FROM eserler")
 
